@@ -1,6 +1,3 @@
-# Azale-Conversational-AI
-Basic Conversational Chatbot with ML &amp; NLP
-
 # 🤖 Azale — High-Capacity Conversational ML Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -9,7 +6,7 @@ Basic Conversational Chatbot with ML &amp; NLP
 [![NLTK](https://img.shields.io/badge/NLTK-3.8%2B-green.svg)](https://www.nltk.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A lightweight, high-performance conversational chatbot powered by **Streamlit**, **scikit-learn**, and **NLTK**. Trained on a synthetic dataset of **151 intent categories** and **5,828 pattern variations**—operating 100% locally with zero external API costs or latency.
+A Basic Conversational Chatbot with ML &amp; NLP, lightweight, high-performance conversational chatbot powered by **Streamlit**, **scikit-learn**, and **NLTK**. Trained on a synthetic dataset of **151 intent categories** and **5,828 pattern variations**—operating 100% locally with zero external API costs or latency.
 
 ---
 
