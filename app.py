@@ -21,6 +21,17 @@ from nltk.stem import WordNetLemmatizer
 LEMMATIZER = WordNetLemmatizer()
 
 
+def sanitize_text(text: str) -> str:
+    """Ensure string is safe from UTF-16 surrogate codepoints that break UTF-8 encoders."""
+    if not text or not isinstance(text, str):
+        return text or ""
+    try:
+        text = text.encode("utf-16", "surrogatepass").decode("utf-16", "replace")
+    except Exception:
+        pass
+    return text.encode("utf-8", "ignore").decode("utf-8", "ignore")
+
+
 def clean_text(text: str) -> str:
     """Preprocess text for conversational NLP:
     1. Lowercase & strip extra spaces
@@ -30,6 +41,7 @@ def clean_text(text: str) -> str:
     """
     if not text:
         return ""
+    text = sanitize_text(text)
     text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\s]", " ", text)
     tokens = [t for t in text.split() if len(t) > 0]
@@ -133,7 +145,7 @@ def predict_intent(message: str, threshold: float = 0.25) -> Tuple[str, float, s
         ]
         return ("unknown", confidence, random.choice(fallback_responses))
 
-    response = random.choice(INTENTS[predicted_intent]["responses"])
+    response = sanitize_text(random.choice(INTENTS[predicted_intent]["responses"]))
     return (predicted_intent, confidence, response)
 
 
@@ -218,14 +230,18 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": f"👋 Hey! I'm **Azale**, your conversational companion . Ask me *how are you*, *what is Python*, *what is Machine Learning*, or *tell me a joke*!",
+            "content": sanitize_text(
+                "👋 Hey! I'm **Azale**, your conversational companion. "
+                "Ask me *how are you*, *what is Python*, *what is Machine Learning*, or *tell me a joke*!"
+            ),
         }
     ]
 
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
+        safe_content = sanitize_text(msg["content"])
         if msg["role"] == "assistant" and "intent" in msg and msg["intent"] != "unknown":
-            st.markdown(msg["content"])
+            st.markdown(safe_content)
             confidence_pct = msg["confidence"] * 100
             st.markdown(
                 f"<span style='font-size:0.75rem;color:#888;'>🎯 "
@@ -233,25 +249,27 @@ for msg in st.session_state.messages:
                 unsafe_allow_html=True,
             )
         else:
-            st.markdown(msg["content"])
+            st.markdown(safe_content)
 
 if prompt := st.chat_input("Talk to Azale..."):
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    safe_prompt = sanitize_text(prompt)
+    st.session_state.messages.append({"role": "user", "content": safe_prompt})
     with st.chat_message("user"):
-        st.markdown(prompt)
+        st.markdown(safe_prompt)
 
-    intent, confidence, response = predict_intent(prompt, threshold=st.session_state.confidence_threshold)
+    intent, confidence, response = predict_intent(safe_prompt, threshold=st.session_state.confidence_threshold)
 
+    safe_response = sanitize_text(response)
     st.session_state.messages.append(
         {
             "role": "assistant",
-            "content": response,
+            "content": safe_response,
             "intent": intent,
             "confidence": confidence,
         }
     )
     with st.chat_message("assistant"):
-        st.markdown(response)
+        st.markdown(safe_response)
         if intent != "unknown":
             confidence_pct = confidence * 100
             st.markdown(
