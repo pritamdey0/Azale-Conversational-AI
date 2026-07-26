@@ -44,7 +44,7 @@ INTENTS = {
             "welcome"
         ],
         "responses": [
-            "Hey there! \ud83d\udc4b Welcome! How can I help you today?",
+            "Hey there! 👋 Welcome! How can I help you today?",
             "Hello! Great to meet you. What would you like to talk about?",
             "Hi there! Feel free to ask me anything about tech, programming, daily topics, or general knowledge!",
             "Hey! Hope you're having a wonderful day. What's on your mind?",
@@ -94,9 +94,9 @@ INTENTS = {
             "ok bye"
         ],
         "responses": [
-            "Goodbye! \ud83d\udc4b Have a great rest of your day!",
+            "Goodbye! 👋 Have a great rest of your day!",
             "See you later! Take care and come back anytime.",
-            "Farewell! It was a pleasure chatting with you. \ud83d\ude0a",
+            "Farewell! It was a pleasure chatting with you. 😊",
             "Goodnight! Rest well and talk soon!",
             "Bye! Stay safe and keep learning!"
         ]
@@ -125,7 +125,7 @@ INTENTS = {
             "cheers"
         ],
         "responses": [
-            "You're very welcome! \ud83d\ude0a Glad I could help.",
+            "You're very welcome! 😊 Glad I could help.",
             "Happy to assist! Feel free to ask anything else.",
             "Anytime! I'm always here if you need more information.",
             "My pleasure! Let me know if there's anything else you'd like to know.",
@@ -153,8 +153,8 @@ INTENTS = {
             "everything good"
         ],
         "responses": [
-            "I'm doing great, thank you for asking! \ud83d\ude0a Ready to chat and explore topics with you. How are you doing today?",
-            "Feeling awesome! \ud83c\udf1f Always excited to help out. How has your day been?",
+            "I'm doing great, thank you for asking! 😊 Ready to chat and explore topics with you. How are you doing today?",
+            "Feeling awesome! 🌟 Always excited to help out. How has your day been?",
             "I'm doing wonderfully! How's everything going on your end?",
             "Doing great and ready to assist! What's on your mind today?"
         ]
@@ -175,7 +175,7 @@ INTENTS = {
             "who am I talking to"
         ],
         "responses": [
-            "I'm Azale! \ud83e\udd16 A conversational AI assistant built with Python, scikit-learn, and NLTK. I'm here to answer questions, share knowledge, and chat!",
+            "I'm Azale! 🤖 A conversational AI assistant built with Python, scikit-learn, and NLTK. I'm here to answer questions, share knowledge, and chat!",
             "My name is Azale! I'm an intent-classification AI chatbot trained on a large dataset of topics.",
             "You can call me Azale! I'm a lightweight conversational assistant powered by Machine Learning and NLP."
         ]
@@ -386,7 +386,7 @@ INTENTS = {
             "master programming"
         ],
         "responses": [
-            "Programming is the process of writing instructions (code) for computers to execute tasks, build applications, and solve complex computational problems. \ud83d\udca1",
+            "Programming is the process of writing instructions (code) for computers to execute tasks, build applications, and solve complex computational problems. 💡",
             "Programming is a fundamental area in modern technology and science. Programming is the process of writing instructions (code) for computers to execute tasks, build applications, and solve complex computational problems.",
             "If you're learning Programming, focus on core principles and practical projects. Programming is the process of writing instructions (code) for computers to execute tasks, build applications, and solve complex computational problems."
         ]
@@ -435,7 +435,7 @@ INTENTS = {
             "master python"
         ],
         "responses": [
-            "Python is a versatile, high-level programming language praised for its clean syntax, readability, and vast library ecosystem in Web Dev, Data Science, and AI. \ud83d\udca1",
+            "Python is a versatile, high-level programming language praised for its clean syntax, readability, and vast library ecosystem in Web Dev, Data Science, and AI. 💡",
             "Python is a fundamental area in modern technology and science. Python is a versatile, high-level programming language praised for its clean syntax, readability, and vast library ecosystem in Web Dev, Data Science, and AI.",
             "If you're learning Python, focus on core principles and practical projects. Python is a versatile, high-level programming language praised for its clean syntax, readability, and vast library ecosystem in Web Dev, Data Science, and AI."
         ]
@@ -484,7 +484,7 @@ INTENTS = {
             "master java"
         ],
         "responses": [
-            "Java is a class-based, object-oriented programming language designed for cross-platform portability using the Java Virtual Machine (JVM). \ud83d\udca1",
+            "Java is a class-based, object-oriented programming language designed for cross-platform portability using the Java Virtual Machine (JVM). 💡",
             "Java is a fundamental area in modern technology and science. Java is a class-based, object-oriented programming language designed for cross-platform portability using the Java Virtual Machine (JVM).",
             "If you're learning Java, focus on core principles and practical projects. Java is a class-based, object-oriented programming language designed for cross-platform portability using the Java Virtual Machine (JVM)."
         ]
@@ -533,7 +533,7 @@ INTENTS = {
             "master cpp"
         ],
         "responses": [
-            "C++ is a high-performance compiled programming language widely used in systems software, game development, real-time engines, and embedded systems. \ud83d\udca1",
+            "C++ is a high-performance compiled programming language widely used in systems software, game development, real-time engines, and embedded systems. 💡",
             "Cpp is a fundamental area in modern technology and science. C++ is a high-performance compiled programming language widely used in systems software, game development, real-time engines, and embedded systems.",
             "If you're learning Cpp, focus on core principles and practical projects. C++ is a high-performance compiled programming language widely used in systems software, game development, real-time engines, and embedded systems."
         ]
@@ -582,7 +582,7 @@ INTENTS = {
             "master javascript"
         ],
         "responses": [
-            "JavaScript is the core scripting language of the Web, enabling dynamic interactive content in browsers, front-end frameworks (React, Vue), and back-end servers (Node.js). \ud83d\udca1",
+            "JavaScript is the core scripting language of the Web, enabling dynamic interactive content in browsers, front-end frameworks (React, Vue), and back-end servers (Node.js). 💡",
             "Javascript is a fundamental area in modern technology and science. JavaScript is the core scripting language of the Web, enabling dynamic interactive content in browsers, front-end frameworks (React, Vue), and back-end servers (Node.js).",
             "If you're learning Javascript, focus on core principles and practical projects. JavaScript is the core scripting language of the Web, enabling dynamic interactive content in browsers, front-end frameworks (React, Vue), and back-end servers (Node.js)."
         ]
@@ -631,7 +631,7 @@ INTENTS = {
             "master html"
         ],
         "responses": [
-            "HTML (HyperText Markup Language) is the standard markup language used to structure web pages and content on the internet. \ud83d\udca1",
+            "HTML (HyperText Markup Language) is the standard markup language used to structure web pages and content on the internet. 💡",
             "Html is a fundamental area in modern technology and science. HTML (HyperText Markup Language) is the standard markup language used to structure web pages and content on the internet.",
             "If you're learning Html, focus on core principles and practical projects. HTML (HyperText Markup Language) is the standard markup language used to structure web pages and content on the internet."
         ]
@@ -680,7 +680,7 @@ INTENTS = {
             "master css"
         ],
         "responses": [
-            "CSS (Cascading Style Sheets) controls the visual presentation, styling, colors, layout, and responsive design of HTML web documents. \ud83d\udca1",
+            "CSS (Cascading Style Sheets) controls the visual presentation, styling, colors, layout, and responsive design of HTML web documents. 💡",
             "Css is a fundamental area in modern technology and science. CSS (Cascading Style Sheets) controls the visual presentation, styling, colors, layout, and responsive design of HTML web documents.",
             "If you're learning Css, focus on core principles and practical projects. CSS (Cascading Style Sheets) controls the visual presentation, styling, colors, layout, and responsive design of HTML web documents."
         ]
@@ -729,7 +729,7 @@ INTENTS = {
             "master react"
         ],
         "responses": [
-            "React is a popular declarative JavaScript library developed by Meta for building component-based user interfaces for web and mobile apps. \ud83d\udca1",
+            "React is a popular declarative JavaScript library developed by Meta for building component-based user interfaces for web and mobile apps. 💡",
             "React is a fundamental area in modern technology and science. React is a popular declarative JavaScript library developed by Meta for building component-based user interfaces for web and mobile apps.",
             "If you're learning React, focus on core principles and practical projects. React is a popular declarative JavaScript library developed by Meta for building component-based user interfaces for web and mobile apps."
         ]
@@ -778,7 +778,7 @@ INTENTS = {
             "master nodejs"
         ],
         "responses": [
-            "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JS code server-side outside the browser. \ud83d\udca1",
+            "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JS code server-side outside the browser. 💡",
             "Nodejs is a fundamental area in modern technology and science. Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JS code server-side outside the browser.",
             "If you're learning Nodejs, focus on core principles and practical projects. Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JS code server-side outside the browser."
         ]
@@ -827,7 +827,7 @@ INTENTS = {
             "master sql"
         ],
         "responses": [
-            "SQL (Structured Query Language) is the standard domain-specific language used for managing, querying, and manipulating data in relational databases. \ud83d\udca1",
+            "SQL (Structured Query Language) is the standard domain-specific language used for managing, querying, and manipulating data in relational databases. 💡",
             "Sql is a fundamental area in modern technology and science. SQL (Structured Query Language) is the standard domain-specific language used for managing, querying, and manipulating data in relational databases.",
             "If you're learning Sql, focus on core principles and practical projects. SQL (Structured Query Language) is the standard domain-specific language used for managing, querying, and manipulating data in relational databases."
         ]
@@ -876,7 +876,7 @@ INTENTS = {
             "master database"
         ],
         "responses": [
-            "A database is an organized collection of structured data stored electronically in a computer system, managed via Database Management Systems (DBMS). \ud83d\udca1",
+            "A database is an organized collection of structured data stored electronically in a computer system, managed via Database Management Systems (DBMS). 💡",
             "Database is a fundamental area in modern technology and science. A database is an organized collection of structured data stored electronically in a computer system, managed via Database Management Systems (DBMS).",
             "If you're learning Database, focus on core principles and practical projects. A database is an organized collection of structured data stored electronically in a computer system, managed via Database Management Systems (DBMS)."
         ]
@@ -925,7 +925,7 @@ INTENTS = {
             "master git"
         ],
         "responses": [
-            "Git is a distributed version control system designed to track changes in source code during software development, supporting branching and collaboration. \ud83d\udca1",
+            "Git is a distributed version control system designed to track changes in source code during software development, supporting branching and collaboration. 💡",
             "Git is a fundamental area in modern technology and science. Git is a distributed version control system designed to track changes in source code during software development, supporting branching and collaboration.",
             "If you're learning Git, focus on core principles and practical projects. Git is a distributed version control system designed to track changes in source code during software development, supporting branching and collaboration."
         ]
@@ -974,7 +974,7 @@ INTENTS = {
             "master github"
         ],
         "responses": [
-            "GitHub is a cloud platform for hosting Git repositories, providing code review, collaboration, pull requests, CI/CD, and project management tools. \ud83d\udca1",
+            "GitHub is a cloud platform for hosting Git repositories, providing code review, collaboration, pull requests, CI/CD, and project management tools. 💡",
             "Github is a fundamental area in modern technology and science. GitHub is a cloud platform for hosting Git repositories, providing code review, collaboration, pull requests, CI/CD, and project management tools.",
             "If you're learning Github, focus on core principles and practical projects. GitHub is a cloud platform for hosting Git repositories, providing code review, collaboration, pull requests, CI/CD, and project management tools."
         ]
@@ -1023,7 +1023,7 @@ INTENTS = {
             "master linux"
         ],
         "responses": [
-            "Linux is a free, open-source Unix-like operating system kernel that powers servers, supercomputers, Android devices, and developer environments worldwide. \ud83d\udca1",
+            "Linux is a free, open-source Unix-like operating system kernel that powers servers, supercomputers, Android devices, and developer environments worldwide. 💡",
             "Linux is a fundamental area in modern technology and science. Linux is a free, open-source Unix-like operating system kernel that powers servers, supercomputers, Android devices, and developer environments worldwide.",
             "If you're learning Linux, focus on core principles and practical projects. Linux is a free, open-source Unix-like operating system kernel that powers servers, supercomputers, Android devices, and developer environments worldwide."
         ]
@@ -1072,7 +1072,7 @@ INTENTS = {
             "master windows"
         ],
         "responses": [
-            "Windows is a graphical operating system family developed by Microsoft, widely used across personal computers, enterprise workstations, and servers. \ud83d\udca1",
+            "Windows is a graphical operating system family developed by Microsoft, widely used across personal computers, enterprise workstations, and servers. 💡",
             "Windows is a fundamental area in modern technology and science. Windows is a graphical operating system family developed by Microsoft, widely used across personal computers, enterprise workstations, and servers.",
             "If you're learning Windows, focus on core principles and practical projects. Windows is a graphical operating system family developed by Microsoft, widely used across personal computers, enterprise workstations, and servers."
         ]
@@ -1121,7 +1121,7 @@ INTENTS = {
             "master ai"
         ],
         "responses": [
-            "Artificial Intelligence (AI) is the field of computer science dedicated to building systems capable of performing tasks that typically require human intelligence. \ud83d\udca1",
+            "Artificial Intelligence (AI) is the field of computer science dedicated to building systems capable of performing tasks that typically require human intelligence. 💡",
             "Ai is a fundamental area in modern technology and science. Artificial Intelligence (AI) is the field of computer science dedicated to building systems capable of performing tasks that typically require human intelligence.",
             "If you're learning Ai, focus on core principles and practical projects. Artificial Intelligence (AI) is the field of computer science dedicated to building systems capable of performing tasks that typically require human intelligence."
         ]
@@ -1170,7 +1170,7 @@ INTENTS = {
             "master machine learning"
         ],
         "responses": [
-            "Machine Learning (ML) is a branch of AI where statistical algorithms learn patterns from data to make predictions or decisions without explicit rule programming. \ud83d\udca1",
+            "Machine Learning (ML) is a branch of AI where statistical algorithms learn patterns from data to make predictions or decisions without explicit rule programming. 💡",
             "Machine Learning is a fundamental area in modern technology and science. Machine Learning (ML) is a branch of AI where statistical algorithms learn patterns from data to make predictions or decisions without explicit rule programming.",
             "If you're learning Machine Learning, focus on core principles and practical projects. Machine Learning (ML) is a branch of AI where statistical algorithms learn patterns from data to make predictions or decisions without explicit rule programming."
         ]
@@ -1219,7 +1219,7 @@ INTENTS = {
             "master deep learning"
         ],
         "responses": [
-            "Deep Learning is a subset of Machine Learning based on multi-layered artificial neural networks (ANNs) inspired by the structure of human brain networks. \ud83d\udca1",
+            "Deep Learning is a subset of Machine Learning based on multi-layered artificial neural networks (ANNs) inspired by the structure of human brain networks. 💡",
             "Deep Learning is a fundamental area in modern technology and science. Deep Learning is a subset of Machine Learning based on multi-layered artificial neural networks (ANNs) inspired by the structure of human brain networks.",
             "If you're learning Deep Learning, focus on core principles and practical projects. Deep Learning is a subset of Machine Learning based on multi-layered artificial neural networks (ANNs) inspired by the structure of human brain networks."
         ]
@@ -1268,7 +1268,7 @@ INTENTS = {
             "master nlp"
         ],
         "responses": [
-            "Natural Language Processing (NLP) is a domain of AI focused on helping computers understand, interpret, process, and generate human written and spoken language. \ud83d\udca1",
+            "Natural Language Processing (NLP) is a domain of AI focused on helping computers understand, interpret, process, and generate human written and spoken language. 💡",
             "Nlp is a fundamental area in modern technology and science. Natural Language Processing (NLP) is a domain of AI focused on helping computers understand, interpret, process, and generate human written and spoken language.",
             "If you're learning Nlp, focus on core principles and practical projects. Natural Language Processing (NLP) is a domain of AI focused on helping computers understand, interpret, process, and generate human written and spoken language."
         ]
@@ -1317,7 +1317,7 @@ INTENTS = {
             "master computer vision"
         ],
         "responses": [
-            "Computer Vision is an AI field enabling computers to derive meaningful information from visual inputs such as digital images, videos, and camera feeds. \ud83d\udca1",
+            "Computer Vision is an AI field enabling computers to derive meaningful information from visual inputs such as digital images, videos, and camera feeds. 💡",
             "Computer Vision is a fundamental area in modern technology and science. Computer Vision is an AI field enabling computers to derive meaningful information from visual inputs such as digital images, videos, and camera feeds.",
             "If you're learning Computer Vision, focus on core principles and practical projects. Computer Vision is an AI field enabling computers to derive meaningful information from visual inputs such as digital images, videos, and camera feeds."
         ]
@@ -1366,7 +1366,7 @@ INTENTS = {
             "master data science"
         ],
         "responses": [
-            "Data Science combines domain expertise, programming skills, math, and statistics to extract actionable insights and knowledge from structured and unstructured data. \ud83d\udca1",
+            "Data Science combines domain expertise, programming skills, math, and statistics to extract actionable insights and knowledge from structured and unstructured data. 💡",
             "Data Science is a fundamental area in modern technology and science. Data Science combines domain expertise, programming skills, math, and statistics to extract actionable insights and knowledge from structured and unstructured data.",
             "If you're learning Data Science, focus on core principles and practical projects. Data Science combines domain expertise, programming skills, math, and statistics to extract actionable insights and knowledge from structured and unstructured data."
         ]
@@ -1415,7 +1415,7 @@ INTENTS = {
             "master statistics"
         ],
         "responses": [
-            "Statistics is the branch of mathematics dealing with the collection, analysis, interpretation, presentation, and organization of data. \ud83d\udca1",
+            "Statistics is the branch of mathematics dealing with the collection, analysis, interpretation, presentation, and organization of data. 💡",
             "Statistics is a fundamental area in modern technology and science. Statistics is the branch of mathematics dealing with the collection, analysis, interpretation, presentation, and organization of data.",
             "If you're learning Statistics, focus on core principles and practical projects. Statistics is the branch of mathematics dealing with the collection, analysis, interpretation, presentation, and organization of data."
         ]
@@ -1464,7 +1464,7 @@ INTENTS = {
             "master math"
         ],
         "responses": [
-            "Mathematics is the foundational science of numbers, quantities, structures, patterns, shapes, and logical reasoning. \ud83d\udca1",
+            "Mathematics is the foundational science of numbers, quantities, structures, patterns, shapes, and logical reasoning. 💡",
             "Math is a fundamental area in modern technology and science. Mathematics is the foundational science of numbers, quantities, structures, patterns, shapes, and logical reasoning.",
             "If you're learning Math, focus on core principles and practical projects. Mathematics is the foundational science of numbers, quantities, structures, patterns, shapes, and logical reasoning."
         ]
@@ -1513,7 +1513,7 @@ INTENTS = {
             "master physics"
         ],
         "responses": [
-            "Physics is the fundamental natural science that studies matter, energy, motion, forces, space, and time. \ud83d\udca1",
+            "Physics is the fundamental natural science that studies matter, energy, motion, forces, space, and time. 💡",
             "Physics is a fundamental area in modern technology and science. Physics is the fundamental natural science that studies matter, energy, motion, forces, space, and time.",
             "If you're learning Physics, focus on core principles and practical projects. Physics is the fundamental natural science that studies matter, energy, motion, forces, space, and time."
         ]
@@ -1562,7 +1562,7 @@ INTENTS = {
             "master chemistry"
         ],
         "responses": [
-            "Chemistry is the natural science studying the composition, structure, properties, behavior, and transformations of matter and chemical elements. \ud83d\udca1",
+            "Chemistry is the natural science studying the composition, structure, properties, behavior, and transformations of matter and chemical elements. 💡",
             "Chemistry is a fundamental area in modern technology and science. Chemistry is the natural science studying the composition, structure, properties, behavior, and transformations of matter and chemical elements.",
             "If you're learning Chemistry, focus on core principles and practical projects. Chemistry is the natural science studying the composition, structure, properties, behavior, and transformations of matter and chemical elements."
         ]
@@ -1611,7 +1611,7 @@ INTENTS = {
             "master biology"
         ],
         "responses": [
-            "Biology is the natural science studying living organisms, life processes, cellular structure, genetics, evolution, and ecosystems. \ud83d\udca1",
+            "Biology is the natural science studying living organisms, life processes, cellular structure, genetics, evolution, and ecosystems. 💡",
             "Biology is a fundamental area in modern technology and science. Biology is the natural science studying living organisms, life processes, cellular structure, genetics, evolution, and ecosystems.",
             "If you're learning Biology, focus on core principles and practical projects. Biology is the natural science studying living organisms, life processes, cellular structure, genetics, evolution, and ecosystems."
         ]
@@ -1818,7 +1818,7 @@ INTENTS = {
             "understanding astronomy"
         ],
         "responses": [
-            "Astronomy is the scientific study of celestial objects (stars, planets, galaxies, black holes) and phenomena originating outside Earth's atmosphere. \ud83d\ude80",
+            "Astronomy is the scientific study of celestial objects (stars, planets, galaxies, black holes) and phenomena originating outside Earth's atmosphere. 🚀",
             "Astronomy is an essential topic. Astronomy is the scientific study of celestial objects (stars, planets, galaxies, black holes) and phenomena originating outside Earth's atmosphere.",
             "If you'd like to learn more about Astronomy, start with foundational concepts. Astronomy is the scientific study of celestial objects (stars, planets, galaxies, black holes) and phenomena originating outside Earth's atmosphere."
         ]
@@ -3807,7 +3807,7 @@ INTENTS = {
             "understanding cybersecurity"
         ],
         "responses": [
-            "Cybersecurity is the practice of protecting systems, networks, devices, and data from digital attacks, unauthorized access, and security breaches. \ud83d\ude80",
+            "Cybersecurity is the practice of protecting systems, networks, devices, and data from digital attacks, unauthorized access, and security breaches. 🚀",
             "Cybersecurity is an essential topic. Cybersecurity is the practice of protecting systems, networks, devices, and data from digital attacks, unauthorized access, and security breaches.",
             "If you'd like to learn more about Cybersecurity, start with foundational concepts. Cybersecurity is the practice of protecting systems, networks, devices, and data from digital attacks, unauthorized access, and security breaches."
         ]
@@ -3906,7 +3906,7 @@ INTENTS = {
             "understanding docker"
         ],
         "responses": [
-            "Docker is a containerization platform that packages applications and their dependencies into lightweight, isolated containers for consistent deployment across environments. \ud83d\ude80",
+            "Docker is a containerization platform that packages applications and their dependencies into lightweight, isolated containers for consistent deployment across environments. 🚀",
             "Docker is an essential topic. Docker is a containerization platform that packages applications and their dependencies into lightweight, isolated containers for consistent deployment across environments.",
             "If you'd like to learn more about Docker, start with foundational concepts. Docker is a containerization platform that packages applications and their dependencies into lightweight, isolated containers for consistent deployment across environments."
         ]
@@ -4167,7 +4167,7 @@ INTENTS = {
             "understanding algorithms"
         ],
         "responses": [
-            "An algorithm is a step-by-step procedure or set of rules to be followed in calculations, data processing, and automated problem-solving. \ud83d\ude80",
+            "An algorithm is a step-by-step procedure or set of rules to be followed in calculations, data processing, and automated problem-solving. 🚀",
             "Algorithms is an essential topic. An algorithm is a step-by-step procedure or set of rules to be followed in calculations, data processing, and automated problem-solving.",
             "If you'd like to learn more about Algorithms, start with foundational concepts. An algorithm is a step-by-step procedure or set of rules to be followed in calculations, data processing, and automated problem-solving."
         ]
@@ -4563,10 +4563,10 @@ INTENTS = {
             "bored"
         ],
         "responses": [
-            "Why do programmers prefer dark mode? Because light attracts bugs! \ud83d\udc1b\ud83d\ude04",
-            "Why did the developer go broke? Because he used up all his cache! \ud83d\udcb0",
-            "There are 10 types of people in the world: those who understand binary, and those who don't! \ud83e\udd13",
-            "Why do Java programmers have to wear glasses? Because they don't C#! \ud83d\udc53"
+            "Why do programmers prefer dark mode? Because light attracts bugs! 🐛😄",
+            "Why did the developer go broke? Because he used up all his cache! 💰",
+            "There are 10 types of people in the world: those who understand binary, and those who don't! 🤓",
+            "Why do Java programmers have to wear glasses? Because they don't C#! 👓"
         ]
     },
     "compliments": {
@@ -7007,7 +7007,7 @@ INTENTS = {
             "understanding kubernetes"
         ],
         "responses": [
-            "Kubernetes (K8s) is an open-source container orchestration system for automating application deployment, scaling, and management. \ud83d\ude80",
+            "Kubernetes (K8s) is an open-source container orchestration system for automating application deployment, scaling, and management. 🚀",
             "Kubernetes is an essential topic. Kubernetes (K8s) is an open-source container orchestration system for automating application deployment, scaling, and management.",
             "If you'd like to learn more about Kubernetes, start with foundational concepts. Kubernetes (K8s) is an open-source container orchestration system for automating application deployment, scaling, and management."
         ]
@@ -7052,7 +7052,7 @@ INTENTS = {
             "understanding cloud computing"
         ],
         "responses": [
-            "Cloud Computing is the on-demand delivery of IT computing resources (servers, storage, databases, networking, software) over the internet with pay-as-you-go pricing. \ud83d\ude80",
+            "Cloud Computing is the on-demand delivery of IT computing resources (servers, storage, databases, networking, software) over the internet with pay-as-you-go pricing. 🚀",
             "Cloud Computing is an essential topic. Cloud Computing is the on-demand delivery of IT computing resources (servers, storage, databases, networking, software) over the internet with pay-as-you-go pricing.",
             "If you'd like to learn more about Cloud Computing, start with foundational concepts. Cloud Computing is the on-demand delivery of IT computing resources (servers, storage, databases, networking, software) over the internet with pay-as-you-go pricing."
         ]
@@ -7097,7 +7097,7 @@ INTENTS = {
             "understanding devops"
         ],
         "responses": [
-            "DevOps is a set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver continuous software delivery. \ud83d\ude80",
+            "DevOps is a set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver continuous software delivery. 🚀",
             "DevOps is an essential topic. DevOps is a set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver continuous software delivery.",
             "If you'd like to learn more about DevOps, start with foundational concepts. DevOps is a set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver continuous software delivery."
         ]
@@ -7142,7 +7142,7 @@ INTENTS = {
             "understanding blockchain"
         ],
         "responses": [
-            "Blockchain is a decentralized, distributed digital ledger technology that securely records transactions across a network of computers using cryptography. \ud83d\ude80",
+            "Blockchain is a decentralized, distributed digital ledger technology that securely records transactions across a network of computers using cryptography. 🚀",
             "Blockchain is an essential topic. Blockchain is a decentralized, distributed digital ledger technology that securely records transactions across a network of computers using cryptography.",
             "If you'd like to learn more about Blockchain, start with foundational concepts. Blockchain is a decentralized, distributed digital ledger technology that securely records transactions across a network of computers using cryptography."
         ]
@@ -7187,7 +7187,7 @@ INTENTS = {
             "understanding data structures"
         ],
         "responses": [
-            "Data Structures are specialized formats for organizing, storing, and managing data efficiently (e.g., Arrays, Linked Lists, Trees, Graphs, Hash Tables). \ud83d\ude80",
+            "Data Structures are specialized formats for organizing, storing, and managing data efficiently (e.g., Arrays, Linked Lists, Trees, Graphs, Hash Tables). 🚀",
             "Data Structures is an essential topic. Data Structures are specialized formats for organizing, storing, and managing data efficiently (e.g., Arrays, Linked Lists, Trees, Graphs, Hash Tables).",
             "If you'd like to learn more about Data Structures, start with foundational concepts. Data Structures are specialized formats for organizing, storing, and managing data efficiently (e.g., Arrays, Linked Lists, Trees, Graphs, Hash Tables)."
         ]
@@ -7232,7 +7232,7 @@ INTENTS = {
             "understanding system design"
         ],
         "responses": [
-            "System Design is the process of defining the architecture, modules, interfaces, caching, load balancing, and database choices for scalable computing applications. \ud83d\ude80",
+            "System Design is the process of defining the architecture, modules, interfaces, caching, load balancing, and database choices for scalable computing applications. 🚀",
             "System Design is an essential topic. System Design is the process of defining the architecture, modules, interfaces, caching, load balancing, and database choices for scalable computing applications.",
             "If you'd like to learn more about System Design, start with foundational concepts. System Design is the process of defining the architecture, modules, interfaces, caching, load balancing, and database choices for scalable computing applications."
         ]
@@ -7277,7 +7277,7 @@ INTENTS = {
             "understanding computer networking"
         ],
         "responses": [
-            "Networking involves interconnecting computing devices to exchange data and share resources using communication protocols like TCP/IP, HTTP, DNS, and UDP. \ud83d\ude80",
+            "Networking involves interconnecting computing devices to exchange data and share resources using communication protocols like TCP/IP, HTTP, DNS, and UDP. 🚀",
             "Computer Networking is an essential topic. Networking involves interconnecting computing devices to exchange data and share resources using communication protocols like TCP/IP, HTTP, DNS, and UDP.",
             "If you'd like to learn more about Computer Networking, start with foundational concepts. Networking involves interconnecting computing devices to exchange data and share resources using communication protocols like TCP/IP, HTTP, DNS, and UDP."
         ]
@@ -7322,7 +7322,7 @@ INTENTS = {
             "understanding mobile development"
         ],
         "responses": [
-            "Mobile Development involves creating software applications designed to run on mobile devices like Android (Kotlin/Java) and iOS (Swift/Flutter). \ud83d\ude80",
+            "Mobile Development involves creating software applications designed to run on mobile devices like Android (Kotlin/Java) and iOS (Swift/Flutter). 🚀",
             "Mobile Development is an essential topic. Mobile Development involves creating software applications designed to run on mobile devices like Android (Kotlin/Java) and iOS (Swift/Flutter).",
             "If you'd like to learn more about Mobile Development, start with foundational concepts. Mobile Development involves creating software applications designed to run on mobile devices like Android (Kotlin/Java) and iOS (Swift/Flutter)."
         ]
@@ -7367,7 +7367,7 @@ INTENTS = {
             "understanding ui ux design"
         ],
         "responses": [
-            "UI/UX Design focuses on crafting intuitive user interfaces (UI) and seamless user experiences (UX) through user research, wireframing, and visual design. \ud83d\ude80",
+            "UI/UX Design focuses on crafting intuitive user interfaces (UI) and seamless user experiences (UX) through user research, wireframing, and visual design. 🚀",
             "UI UX Design is an essential topic. UI/UX Design focuses on crafting intuitive user interfaces (UI) and seamless user experiences (UX) through user research, wireframing, and visual design.",
             "If you'd like to learn more about UI UX Design, start with foundational concepts. UI/UX Design focuses on crafting intuitive user interfaces (UI) and seamless user experiences (UX) through user research, wireframing, and visual design."
         ]
@@ -7412,7 +7412,7 @@ INTENTS = {
             "understanding game development"
         ],
         "responses": [
-            "Game Development is the art and engineering of creating interactive digital games using game engines like Unity or Unreal Engine, combined with graphics and physics. \ud83d\ude80",
+            "Game Development is the art and engineering of creating interactive digital games using game engines like Unity or Unreal Engine, combined with graphics and physics. 🚀",
             "Game Development is an essential topic. Game Development is the art and engineering of creating interactive digital games using game engines like Unity or Unreal Engine, combined with graphics and physics.",
             "If you'd like to learn more about Game Development, start with foundational concepts. Game Development is the art and engineering of creating interactive digital games using game engines like Unity or Unreal Engine, combined with graphics and physics."
         ]
@@ -7457,7 +7457,7 @@ INTENTS = {
             "understanding quantum computing"
         ],
         "responses": [
-            "Quantum Computing leverages quantum mechanics phenomena (like superposition and entanglement) to solve complex computational problems exponentially faster than classical computers. \ud83d\ude80",
+            "Quantum Computing leverages quantum mechanics phenomena (like superposition and entanglement) to solve complex computational problems exponentially faster than classical computers. 🚀",
             "Quantum Computing is an essential topic. Quantum Computing leverages quantum mechanics phenomena (like superposition and entanglement) to solve complex computational problems exponentially faster than classical computers.",
             "If you'd like to learn more about Quantum Computing, start with foundational concepts. Quantum Computing leverages quantum mechanics phenomena (like superposition and entanglement) to solve complex computational problems exponentially faster than classical computers."
         ]
@@ -7502,7 +7502,7 @@ INTENTS = {
             "understanding psychology"
         ],
         "responses": [
-            "Psychology is the scientific study of mind, behavior, cognitive processes, emotions, personality, and social interactions. \ud83d\ude80",
+            "Psychology is the scientific study of mind, behavior, cognitive processes, emotions, personality, and social interactions. 🚀",
             "Psychology is an essential topic. Psychology is the scientific study of mind, behavior, cognitive processes, emotions, personality, and social interactions.",
             "If you'd like to learn more about Psychology, start with foundational concepts. Psychology is the scientific study of mind, behavior, cognitive processes, emotions, personality, and social interactions."
         ]
@@ -7547,7 +7547,7 @@ INTENTS = {
             "understanding economics"
         ],
         "responses": [
-            "Economics is the social science studying how individuals, businesses, and governments allocate scarce resources to satisfy unlimited wants and needs. \ud83d\ude80",
+            "Economics is the social science studying how individuals, businesses, and governments allocate scarce resources to satisfy unlimited wants and needs. 🚀",
             "Economics is an essential topic. Economics is the social science studying how individuals, businesses, and governments allocate scarce resources to satisfy unlimited wants and needs.",
             "If you'd like to learn more about Economics, start with foundational concepts. Economics is the social science studying how individuals, businesses, and governments allocate scarce resources to satisfy unlimited wants and needs."
         ]
@@ -7592,7 +7592,7 @@ INTENTS = {
             "understanding time management"
         ],
         "responses": [
-            "Time Management is the practice of organizing and planning how to divide your time between specific activities to work smarter, increase productivity, and reduce stress. \ud83d\ude80",
+            "Time Management is the practice of organizing and planning how to divide your time between specific activities to work smarter, increase productivity, and reduce stress. 🚀",
             "Time Management is an essential topic. Time Management is the practice of organizing and planning how to divide your time between specific activities to work smarter, increase productivity, and reduce stress.",
             "If you'd like to learn more about Time Management, start with foundational concepts. Time Management is the practice of organizing and planning how to divide your time between specific activities to work smarter, increase productivity, and reduce stress."
         ]
@@ -7637,7 +7637,7 @@ INTENTS = {
             "understanding career advice"
         ],
         "responses": [
-            "Building a successful career involves continuous learning, networking, setting clear milestones, working on hands-on projects, and maintaining work-life balance. \ud83d\ude80",
+            "Building a successful career involves continuous learning, networking, setting clear milestones, working on hands-on projects, and maintaining work-life balance. 🚀",
             "Career Advice is an essential topic. Building a successful career involves continuous learning, networking, setting clear milestones, working on hands-on projects, and maintaining work-life balance.",
             "If you'd like to learn more about Career Advice, start with foundational concepts. Building a successful career involves continuous learning, networking, setting clear milestones, working on hands-on projects, and maintaining work-life balance."
         ]
@@ -7682,7 +7682,7 @@ INTENTS = {
             "understanding api design"
         ],
         "responses": [
-            "API Design defines how application programming interfaces (REST, GraphQL, gRPC) structure requests, responses, endpoints, and authentication protocols. \ud83d\ude80",
+            "API Design defines how application programming interfaces (REST, GraphQL, gRPC) structure requests, responses, endpoints, and authentication protocols. 🚀",
             "API Design is an essential topic. API Design defines how application programming interfaces (REST, GraphQL, gRPC) structure requests, responses, endpoints, and authentication protocols.",
             "If you'd like to learn more about API Design, start with foundational concepts. API Design defines how application programming interfaces (REST, GraphQL, gRPC) structure requests, responses, endpoints, and authentication protocols."
         ]
