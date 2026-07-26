@@ -39,6 +39,7 @@ INTENTS = {
             "wassup",
             "hii",
             "heyy",
+            "hey buddy"
             "hi again",
             "hello again",
             "welcome"
