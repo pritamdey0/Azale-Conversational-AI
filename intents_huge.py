@@ -30,7 +30,7 @@ INTENTS = {
             "hey buddy",
             "hello there",
             "good to see you",
-            "wassup"
+            "wassup bud!"
             "hi there",
             "start chat",
             "lets chat",
