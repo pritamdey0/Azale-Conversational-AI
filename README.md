@@ -68,7 +68,7 @@ graph TD
     D --> E[Calibrated LinearSVC Classifier]
     E --> F{Confidence >= Threshold?}
     F -- Yes --> G[Select Intent Response]
-    F -- No --> H[Dynamic Friendly Fallback]
+    F -- No --> H[Dynamic Friendly Fallbacks]
 ```
 
 ---
