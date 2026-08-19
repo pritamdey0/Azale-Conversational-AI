@@ -63,6 +63,7 @@ INTENTS = {
             "good night",
             "goodnight",
             "gn"
+            "gotta go bye"
             "catch you later",
             "peace",
             "gotta go",
