@@ -116,6 +116,7 @@ INTENTS = {
             "thank you very much",
             "many thanks",
             "thx",
+            "Thanks a millio"
             "awesome thanks",
             "great job",
             "thank you bot",
